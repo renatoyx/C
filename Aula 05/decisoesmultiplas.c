@@ -29,7 +29,7 @@
 
         
         default:
-            printf("Como não foi escolhida nenhuma opção, estamos encerrando seu atendimento. \n ");
+            printf("Como não foi escolhida nenhuma opção, estamos encerrando seu atendimento. \n  ");
             break;
         }
         system ("pause"); 
