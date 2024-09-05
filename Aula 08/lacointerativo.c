@@ -15,7 +15,7 @@ int main()
 
         printf("%d \n", x); 
 
-        contador = contador + 1;
+        contador++; //contador = contador + 1; (mesma coisa)
     }
     
 

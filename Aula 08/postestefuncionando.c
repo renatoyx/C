@@ -5,9 +5,7 @@ int main()
 {
     int numero, x; 
     char resp; 
-    resp = 'S';
     
-
     do { 
          printf("Digite um número qualquer: \n"); 
         scanf("%d", &numero);   
@@ -18,6 +16,6 @@ int main()
         printf("%d \n", x); 
 
         printf("Deseja continuar? S/N \n"); 
-        scanf("%c", resp); 
-        } while (resp = 'S'); 
+        scanf(" %c", &resp); 
+        } while (resp == 'S'); 
     }  
