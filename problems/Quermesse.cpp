@@ -6,14 +6,14 @@ using namespace std;
 
 int main() { _
 
-    int numreoTeste;
-    int contagem = 1;
+    int numeroteste;
+    int contagem = 1; 
    
 
-    while (true) {
-        cin >> numreoTeste;
-        vector<int> entradas(numreoTeste, 0); 
-        if (numreoTeste == 0) break;
+    while (true) { 
+        cin >> numeroteste;
+        vector<int> entradas(numeroteste, 0); 
+        if (numeroteste == 0) break;
 
             for(int i = 0; i < entradas.size(); i++ ){
                 cin >> entradas[i]; 
@@ -21,7 +21,6 @@ int main() { _
 
             for (int j = 0; j < entradas.size(); j++) {
                 if (entradas[j] == j+1) {
-                    // cout << entradas[j];
                     cout << "Teste " << contagem << endl;
                     cout << entradas[j] << endl;
                     contagem++;
