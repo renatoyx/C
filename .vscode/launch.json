@@ -38,7 +38,7 @@
             "preLaunchTask": "C/C++: g++.exe build active file"
         },
         {
-            "name": "C/C++: g++.exe build and debug active file",
+            "name": "C/C++: gcc.exe build and debug active file",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
